@@ -12,6 +12,8 @@ object Application extends Controller {
 		Ok(views.html.index("Your new application is ready."))
 	}
 
+	/* OPTION I */
+
 	def sayHello = Action { request =>
 		request.body.asJson.map { json =>
 			json.validate[Request].map {
@@ -23,6 +25,8 @@ object Application extends Controller {
 			BadRequest("Expecting Json data")
 		}
 	}
+
+	/* OPTION II */
 
 	implicit val rds = (
 		(__ \ 'name).read[String] and
@@ -40,6 +44,8 @@ object Application extends Controller {
 			BadRequest("Expecting Json data")
 		}
 	}
+
+	/* OPTION III */
 
 	def sayWhatYouLike = Action { request =>
 
