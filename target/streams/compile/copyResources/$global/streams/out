@@ -1,0 +1,3 @@
+[debug] Copy resource mappings: 
+[debug] 	(/Users/trollr/Projects/example/RequestCombinatorExample/conf/application.conf,/Users/trollr/Projects/example/RequestCombinatorExample/target/scala-2.11/classes/application.conf)
+[debug] 	(/Users/trollr/Projects/example/RequestCombinatorExample/conf/routes,/Users/trollr/Projects/example/RequestCombinatorExample/target/scala-2.11/classes/routes)
