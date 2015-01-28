@@ -1,3 +1,25 @@
 RequestCombinatorExample
 
 * several options to access request data
+
+Example
+
+http://localhost:9000/hello 
+
+{
+    "name":"John Doe", 
+    "age":20
+}
+
+http://localhost:9000/goodbye 
+
+{
+    "name":"John Doe", 
+    "cheerio":"have a nice day"
+}
+
+http://localhost:9000/like 
+
+{
+    "something":"Beer"
+}
